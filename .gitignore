@@ -1,0 +1,94 @@
+
+#  .gitignore Approche Hybride d'Optimisation Multi-Objectifs
+#  Big Data Storage & Adaptive Processing
+
+
+#  Python 
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pycache
+.Python
+
+#  Environnements virtuels 
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Distribution / packaging 
+build/
+dist/
+*.egg-info/
+*.egg
+
+#  Jupyter Notebooks (checkpoints) 
+.ipynb_checkpoints/
+*.ipynb
+
+# IDEs  editeurs 
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+#  OS 
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Donnees volumineuses (ne pas pousser sur GitHub) ---
+data/raw/
+data/large/
+*.parquet
+*.hdf5
+*.h5
+*.feather
+*.pkl
+*.pickle
+
+#  Fichiers CSV / JSON lourds generes automatiquement 
+# (garder les petits fichiers de config et d'exemple,
+#  exclure les outputs de pipeline qui se regenerent)
+output/
+outputs/
+*_results.csv
+*_report.json
+!config.json
+!exemple_*.csv
+
+#  Graphiques generes (se regenerent avec main.py) 
+output/graphs/
+*.png
+*.pdf
+
+# Logs 
+*.log
+logs/
+
+#  Compression / archives temporaires 
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+#  Fichiers de cache divers 
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+coverage.xml
+data/real_files/
+data/storage/
+data/synthetic_files/
+*.gzip
+*.snappy
+*.zstd
+*.pkl

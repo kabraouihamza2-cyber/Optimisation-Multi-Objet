@@ -1,0 +1,20 @@
+{
+  "random_seed": 42,
+  "pricing_unit": "USD per GB per month",
+  "latency_unit": "milliseconds",
+  "pricing": {
+    "SSD": 0.10,
+    "HDD": 0.03,
+    "ARCHIVE": 0.005
+  },
+  "latencies": {
+    "SSD": 5,
+    "HDD": 20,
+    "ARCHIVE": 500
+  },
+  "weights": {
+    "cost": 0.4,
+    "latency": 0.3,
+    "temperature": 0.3
+  }
+}
