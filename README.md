@@ -1,6 +1,7 @@
 # Approche Hybride d'Optimisation Multi-Objectifs pour le Stockage et le Traitement Adaptatif dans les Architectures Big Data
 
-> Prototype académique — Master Big Data & Intelligence Artificielle (2025–2026)
+> Prototype académique : Master Big Data & Intelligence Artificielle (2025–2026)
+> 📄 **Academic Report:** [ReportApproche Hybride d'Optimisation Multi-Objectifs pour le Stockage et le Traitement Adaptatif dans les Architectures BIG DATA.docx](./Approche Hybride d'Optimisation Multi-Objectifs pour le Stockage et le Traitement Adaptatif dans les Architectures BIG DATA.docx)
 
 ---
 
